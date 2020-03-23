@@ -1,0 +1,15 @@
+//@import "../default/mixins";
+
+.header {
+  position: absolute;
+  z-index: 1;
+}
+.navigation__button {
+  padding: 15px;
+  width: 16px;
+  height: 12px;
+  box-sizing: content-box;
+  @include prefix-flexbox();
+  @include prefix-align-items(center);
+  @include prefix-justify-content(center);
+}

@@ -1,0 +1,20 @@
+.button {
+  @include prefix-flexbox();
+  @include prefix-justify-content(center);
+  @include prefix-align-items(center);
+  box-sizing: border-box;
+  padding: 21px 54px;
+  border-radius: 5px;
+
+  &.tiffany {
+    width: 200px;
+    height: 55px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 13px;
+    background: #23C3B2;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+  }
+}
+
